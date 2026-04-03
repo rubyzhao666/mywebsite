@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-domain.vercel.app/</loc>
+    <loc>https://ruby-ai-pm.netlify.app/</loc>
   </url>
   <url>
-    <loc>https://your-domain.vercel.app/zh/</loc>
+    <loc>https://ruby-ai-pm.netlify.app/zh/</loc>
   </url>
   <url>
-    <loc>https://your-domain.vercel.app/en/</loc>
+    <loc>https://ruby-ai-pm.netlify.app/en/</loc>
   </url>
 </urlset>

@@ -1,6 +1,6 @@
 # AI PM Personal Website (Free Edition)
 
-这是一个无需 Node 依赖、可直接部署到 Vercel 的静态双语个人品牌站点。
+这是一个无需 Node 依赖、可直接部署到 Netlify 的静态双语个人品牌站点。
 
 ## 已实现
 
@@ -23,21 +23,22 @@
 
 ## 本地预览
 
-推荐使用本地静态服务器预览（避免 `file://` 方式的兼容问题）：
-
-1. 在项目目录打开终端：`/Users/ruby/Desktop/mywebsite`
+1. 在项目目录打开终端
 2. 运行命令：`python3 -m http.server 8080`
 3. 浏览器访问：
    - 中文页：`http://localhost:8080/zh/`
    - 英文页：`http://localhost:8080/en/`
 4. 停止服务：终端按 `Ctrl + C`
 
-## 部署到 Vercel
+## 部署到 Netlify
 
-1. 将当前目录推送到 GitHub（可选，但推荐）。
-2. 在 Vercel 创建新项目并导入仓库，或直接通过 CLI 上传。
-3. Framework 选择 `Other`（静态站点）。
-4. 部署完成后绑定自定义域名。
+1. 将当前目录推送到 GitHub。
+2. 打开 [https://app.netlify.com/start](https://app.netlify.com/start)
+3. 选择 `Import an existing project` -> `GitHub`
+4. 选择仓库 `rubyzhao666/mywebsite`
+5. Publish directory 填 `.`（英文句点）
+6. 点击 `Deploy`
+7. 部署完成后绑定自定义域名。
 
 ## 目录结构
 
@@ -51,7 +52,7 @@
 ├── zh/
 │   └── index.html
 ├── index.html
+├── netlify.toml
 ├── robots.txt
-├── sitemap.xml
-└── vercel.json
+└── sitemap.xml
 ```
